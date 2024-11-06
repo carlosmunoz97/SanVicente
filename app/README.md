@@ -11,7 +11,7 @@ Se tienen diferentes módulos enfocados a diferentes aspectos en el problema.
 -Un módulo de entrenamiento en el cual se tiene el flujo necesario para poder llevar a cabo un reentrenamiento del modelo ya almacenado.
 -Un módulo principal o main en el cual se almacena el inicio del flujo
 -Una carpeta llamada model en la que se guarda el modelo usado actualmente y dentro de la misma carpeta un modelo denominado last_model en el cual se almacena una copia del modelo antes de realizar un re-entrenamiento.
-- Una carpeta de database donde se almacena la BD de facturación y una donde se almacena los datos ya procesados.
+-Una carpeta de database donde se almacena la BD de facturación y una donde se almacena los datos ya procesados.
 
 ## Consideraciones.
 Imaginando tener un ambiente productivo, se piensa como si se tuviera una base de datos donde se van almacenando los datos de manera ordenada y en bruto para poder realizar su respectivo tratamiento. Y por otro lado, una BD que actua como data_lake en el que se van almacenando los datos ya procesados con las variables relevantes en el modelo.

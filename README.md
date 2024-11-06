@@ -10,7 +10,7 @@ Se tiene un archivo de jupyter en el cual se realiza todo el análisis para pode
 En las carpetas de src, modelo y recursos se almacena información importante sobre configuración, datos y algunas funciones útiles.
 
 - En la carpeta de modelo se almacena el modelo final después de realizar todo el análisis.
--En la carpeta de recursos se debe almacenar la base de datos que se propuso.
+- En la carpeta de recursos se debe almacenar la base de datos que se propuso.
 - En src se tiene la configuración de algunas variables del análisis e incluso se tienen algunas transformaciones necesarias.
 
 Por otro lado, en la carpeta app se almacena un aplicativo modular que contiene su propio readme para poder ser ejecutado, en el cual se puede reentrenar el modelo con nuevos datos o incluso realizar predicciones a los últimos datos almacenados.
